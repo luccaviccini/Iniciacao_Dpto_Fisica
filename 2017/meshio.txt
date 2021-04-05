@@ -1,0 +1,30 @@
+meshio
+
+meshio consegue ler e escrever todos os formatos listados abaixo e suavemente converter entre eles simplismente chamar: 
+
+meshio-convert input.msh output.vtu
+
+ANSYS msh
+DOLFIN XML
+Exodus
+H5M
+Medit
+Gmsh
+OFF
+PERMAS
+VTK
+VTU
+ XDMF/XDMF3
+
+ em python, para ler uma mesh simplesmente chamar: points, cells, point_data, cell_data, field_data = \
+    meshio.read(args.infile)
+
+  para escrever:
+    meshio.write(
+    args.outfile,
+    points,
+    cells,
+    point_data=point_data,
+    cell_data=cell_data,
+    field_data=field_data
+    )

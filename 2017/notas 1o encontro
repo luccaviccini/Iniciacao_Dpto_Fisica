@@ -1,0 +1,9 @@
+freecad
+senha fisica eqdEhBNH
+
+fazer estrutura da peca e salvar no formato STEP (exportar)
+
+segundo programa: GMSH para exportar do gmsh extensao .VTK
+
+depois de importar a peca do freecad, fazer um mesh com linhas organizadas(quadradas)
+FAZER UM PROGRAMA EM PYTHON QUE LEIA AS COORDENADAS DO ARQUIVO VTK COMPARTILHADO NO DROPBOX.
